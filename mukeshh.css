@@ -1,0 +1,150 @@
+.container{ 
+    position: absolute;
+    left: 160px;
+    top: 150px;
+    animation: menu 4s 0s infinite;
+}
+@keyframes menu{
+    0% {
+        transform: rotate(0);
+        top: 0;
+        left: 0;
+    }
+    50%{
+        transform: rotate(360deg);
+        top: 0;
+        left: 80%;
+
+    }
+    100%{
+        transform: rotate(0);
+        top: 0;
+        left: 0;
+
+    }
+}
+.head{
+    width: 300px;
+    height: 200px;
+    background: #b9830e;
+    border-radius: 100%;
+    position: relative;
+    border: 3px solid #000;
+}
+.ear{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    border: 3px solid #000;
+    background: #b9830e;
+    z-index: -1;
+
+}
+.ear:nth-child(1){
+    top: 10px;
+}
+.ear:nth-child(2){
+    top: 10px;
+    right: 0;
+}
+.nose{
+    width: 60px;
+    height: 40px;
+    background: #000;
+    border-radius: 100%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.mouth{
+    width: 10px;
+    height: 40px;
+    background: #000;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: 0;
+    position: absolute;
+
+}
+.eye1{
+    position: absolute;
+    height:22px;
+    width:22px;
+    top: 42%;
+    left: 60px;
+    background: white;
+    border-radius: 50%;
+    animation: rakesh 2s 5s infinite;
+    overflow: hidden;
+}
+@keyframes rakesh{
+    0% {
+        
+        top: 42%;
+    
+    }
+    50%{
+    
+        top: 43%;
+        height:0 ;
+
+
+    }
+    }
+.eye2{
+        position: absolute;
+        height:22px;
+        width:22px;
+        top: 42%;
+        left: 205px;
+        background: white;
+        border-radius: 50%;
+        /* animation: rakesh 4s 0s infinite; */
+        overflow: hidden;
+ }
+.eye5{
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border: 2px solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+
+}
+
+
+.aay1{
+    width: 30px;
+    height: 20px;
+    border-top: 2px solid #000;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    border-radius: 50%;
+    animation: sk 1.6s 5s infinite;
+}
+@keyframes sk{
+    0%{
+        top: 60px;
+
+
+    }
+    50%{
+        top: 70px;
+    }
+
+}
+.aay2{
+    width: 30px;
+    height: 20px;
+    border-top: 2px solid #000;
+    position: absolute;
+    top: 60px;
+    left: 200px;
+    border-radius: 50%;
+}
+
